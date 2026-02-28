@@ -16,11 +16,12 @@
         <a href="#">Projets ▾</a>
         <ul class="submenu">
           <li><a href="scolaires.html">Scolaires</a></li>
-          <li><a href="stages.html">Professionnels</a></li>
+          <li><a href="pro.html">Professionnels</a></li>
         </ul>
       </li>
       <li><a href="veille.html">Veille</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li><a href="stages.html">Stages</a></li>
     </ul>
   </nav>
 </header>
@@ -33,26 +34,11 @@
     <div class="stage-card">
       <h3>Stage 1</h3>
       <p>Entreprise XYZ - Analyse de données et reporting</p>
-      <button class="btn-synthese" data-stage="1">Voir synthèse</button>
+      <button class="btn-synthese" data-stage="1"><a href=Synthese_Competences_MohamedHaddou> Télécharger la synthèse</a></button>
     </div>
-    <div class="stage-card">
-      <h3>Stage 2</h3>
-      <p>Entreprise ABC - Automatisation de dashboards</p>
-      <button class="btn-synthese" data-stage="2">Voir synthèse</button>
-    </div>
-    <!-- Ajoute d'autres stages ici -->
-  </div>
 
-  <div id="synthese" class="synthese-hidden">
-    <h2>Ma synthèse de compétences</h2>
-    <ul>
-      <li>Analyse et nettoyage de données</li>
-      <li>Création de dashboards interactifs (Power BI, Excel, etc.)</li>
-      <li>Automatisation de reporting</li>
-      <li>Travail en équipe et gestion de projets</li>
-    </ul>
-    <button id="close-synthese">Fermer</button>
-  </div>
+
+
 
 </main>
 
@@ -60,22 +46,7 @@
   <p>© 2026 Mohamed - Portfolio</p>
 </footer>
 
-<script>
-  const synthese = document.getElementById('synthese');
-  const btns = document.querySelectorAll('.btn-synthese');
-  const closeBtn = document.getElementById('close-synthese');
-
-  btns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      synthese.style.display = 'block';
-      window.scrollTo({ top: synthese.offsetTop - 20, behavior: 'smooth' });
-    });
-  });
-
-  closeBtn.addEventListener('click', () => {
-    synthese.style.display = 'none';
-  });
-</script>
 
 </body>
 </html>
+
