@@ -33,3 +33,60 @@ footer { background: #f0f0f0; text-align: center; padding: 1rem; margin-top: 2re
   background-color: #0056b3;
 }
 
+
+.stages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.stage-card {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.stage-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.stage-card button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #5d5d5d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stage-card button:hover {
+  background-color: #0056b3;
+}
+
+.synthese-hidden {
+  display: none;
+  background: #fff;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+#synthese h2 {
+  margin-top: 0;
+}
+
+#synthese button {
+  margin-top: 1rem;
+  background-color: #c0392b;
+}
+
+#synthese button:hover {
+  background-color: #e74c3c;
+}
+
