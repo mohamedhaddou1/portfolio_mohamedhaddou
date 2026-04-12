@@ -34,63 +34,118 @@
 
     <h3>Problématique</h3>
     <p>
-      Quelle est l’utilité de la blockchain dans le cadre de la logistique ?
+      Qu’elle est l’utilité de la blockchain dans le cadre de la logistique ?
     </p>
 
     <h3>Tableau des évolutions blockchain</h3>
 
     <div class="table-container">
       <table>
+
         <thead>
           <tr>
             <th>Évolution blockchain</th>
-            <th>Période</th>
-            <th>Principe technique</th>
-            <th>Apport en logistique</th>
-            <th>Exemples</th>
+            <th>Période de déploiement</th>
+            <th>Sources</th>
+            <th>Explication technique du principe amélioré de la Blockchain</th>
+            <th>Explication de l’amélioration que ça apporte dans le cadre de la logistique</th>
+            <th>Entreprises / cas d’usage</th>
           </tr>
         </thead>
 
         <tbody>
+
           <tr>
-            <td>Zero-Knowledge Proofs (ZK)</td>
+            <td>Zero-Knowledge Proofs (ZK) (technologie cryptographique)</td>
             <td>2025-2026</td>
-            <td>Preuve sans révéler les données</td>
-            <td>Partage sécurisé de données sensibles</td>
-            <td>Polygon, StarkWare</td>
+            <td>
+              Vidéo youtube : https://youtu.be/_MYpZQVZdiM?si=3F8JYpodekLoKWGV <br>
+              Article de blog officiel : Polygon’s Zero Knowledge Strategy Explained
+            </td>
+            <td>
+              Utilisation de preuves cryptographiques permettant de valider une information sans révéler les données sous-jacentes
+            </td>
+            <td>
+              Permet de partager des données sensibles (contrats, fournisseurs) sans les divulguer
+            </td>
+            <td>
+              StarkWare, Polygon → protection des données fournisseurs
+            </td>
           </tr>
 
           <tr>
-            <td>Proto-Danksharding (EIP-4844)</td>
-            <td>2024</td>
-            <td>Stockage de données hors chaîne (blobs)</td>
-            <td>Réduction du coût des données logistiques</td>
-            <td>Ethereum, Arbitrum</td>
+            <td>Proto-Danksharding (EIP-4844) (mise à jour d’Ethereum)</td>
+            <td>mars 2024</td>
+            <td>
+              Article de recherche : https://arxiv.org/abs/2405.03183 <br>
+              vidéo youtube : https://youtu.be/LmQTRGqUL9s?si=NAQoqvxe6hL0luyn
+            </td>
+            <td>
+              Introduction des blob transactions permettant de stocker temporairement des données hors chaîne principale, réduisant fortement le coût des données pour les rollups (Layer 2)
+            </td>
+            <td>
+              Permet d’enregistrer à faible coût les données de suivi des colis ou des flux de stock
+            </td>
+            <td>
+              Ethereum, Arbitrum → suivi des colis à grande échelle
+            </td>
           </tr>
 
           <tr>
-            <td>Ethereum Pectra Upgrade</td>
-            <td>2025</td>
-            <td>Amélioration smart contracts + Layer 2</td>
-            <td>Intégration dans ERP et supply chain</td>
-            <td>IBM, Consensys</td>
+            <td>Ethereum Pectra Upgrade (mise à jour majeure du protocole Ethereum)</td>
+            <td>Mai 2025</td>
+            <td>
+              Documentation officielle du protocole Ethereum : Prague-Electra (Pectra) | ethereum.org <br>
+              Vidéo youtube : https://youtu.be/5sFXe8VoRjw?si=LBGYyMM_4JMNI9CI
+            </td>
+            <td>
+              Ensemble d’améliorations du protocole incluant optimisation des comptes, amélioration des interactions smart contracts et meilleure gestion des Layer 2
+            </td>
+            <td>
+              Facilite l’intégration de la blockchain dans les logiciels logistiques (ERP, supply chain)
+            </td>
+            <td>
+              Consensys, IBM → automatisation des processus
+            </td>
           </tr>
 
           <tr>
-            <td>Layer 2 (Arbitrum, Optimism, Base)</td>
+            <td>Layer 2 (Arbitrum, Optimism, Base) (solutions de scalabilité blockchain)</td>
             <td>2024-2025</td>
-            <td>Rollups hors chaîne + preuve sur Ethereum</td>
-            <td>Traitement rapide des flux logistiques</td>
-            <td>Coinbase, Arbitrum</td>
+            <td>
+              Source officielle technique du projet lui-même : Arbitrum – Build & Scale Your Onchain Business <br>
+              Site youtube : https://youtu.be/7pWxCklcNsU?si=jOjxYtJ1NsoVLgDd
+            </td>
+            <td>
+              Utilisation de rollups (Optimistic ou ZK) qui exécutent les transactions hors chaîne puis publient une preuve sur la blockchain principale
+            </td>
+            <td>
+              Permet de traiter des milliers d’événements logistiques (livraisons, stocks) sans saturation
+            </td>
+            <td>
+              Coinbase, Arbitrum → gestion des flux et stocks
+            </td>
           </tr>
 
           <tr>
-            <td>Hyperbridge</td>
+            <td>Hyperbridge (protocole d’interopérabilité blockchain)</td>
             <td>2024</td>
-            <td>Communication entre blockchains</td>
-            <td>Échange de données entre entreprises</td>
-            <td>Polkadot, Chainlink</td>
+            <td>
+              Documentation officielle technique : Hyperbridge Documentation <br>
+              Vidéo youtube : https://youtu.be/TaOjTGdAvi4?si=Syi1DBED-O-ntfhZ <br>
+              Article de presse spécialisé (média crypto / tech) : https://www.ccn.com/education/crypto/polkadot-hyperbridge-protocol/
+            </td>
+            <td>
+              Mise en place de protocoles cross-chain permettant la communication sécurisée entre différentes blockchains via des preuves vérifiables
+            </td>
+            <td>
+              Permet aux systèmes logistiques de différentes entreprises d’échanger leurs données
+            </td>
+            <td>
+              Chainlink, Polkadot → interconnexion des plateformes
+            </td>
           </tr>
+
         </tbody>
       </table>
     </div>
